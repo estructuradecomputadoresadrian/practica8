@@ -2,15 +2,15 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define TamX 3
-#define TamY 6
+#define TamX 6
+#define TamY 3
 
 void inicializa(int imatriz[TamX][TamY]);
 void sumaColumnas(int smatriz[TamX][TamY], int svector[TamX]);
 
 int main(){
 	int matriz[TamX][TamY];
-	int vector[TamX];
+	int vector[TamY];
 	inicializa(matriz);
 	//Imprimo la matriz
 	printf("La matriz generada es:\n");
